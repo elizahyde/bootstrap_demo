@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ATM Review</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="bank" class="span6 offset3">
+    <h1>Bank of WDI</h1>
+    
+    <blockquote>
+      <p>"I <em>love</em> this bank!!"</p>
+      <p class="muted"><small>Paid Customer</small></p>
+    </blockquote>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <a class="brand" href="#">Title</a>
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span3">
+        <h2>Checking</h2>
+        <div id="checking" class="output">$1000</div>
+
+        <form class="controls">
+          <input id="c_amount" type="text">
+
+          <button id="c_deposit" class=" btn btn-primary"><i class="icon-arrow-up icon-white"></i> Deposit</button>
+          <button id="c_withdraw" class=" btn btn-success"><i class="icon-arrow-down icon-white"></i> Withdraw</button>
+        </form>
+      </div>
+
+    <div class="span3">
+      <h2>Saving</h2>
+      <div id="saving" class="output">$2500</div>
+
+      <form class="controls">
+        <input id="s_amount" type="text">
+
+        <button id="s_deposit" class=" btn btn-primary"><i class="icon-arrow-up icon-white"></i> Deposit</button>
+        <button id="s_withdraw" class=" btn btn-success"><i class="icon-arrow-down icon-white"></i> Withdraw</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

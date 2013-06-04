@@ -1,0 +1,11 @@
+
+.zero_balance{
+  background: red;
+  color: white;
+}
+
+#bank{
+	border: solid 2px blue;
+	border-radius: 5px;
+	padding: 20px;
+}
